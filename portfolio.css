@@ -1,0 +1,129 @@
+/* James Boussounis - Portfolio */
+
+
+body
+{
+	background-color:rgba(8, 8, 16, 0.94);
+
+}
+
+#navbarcontainer
+{
+	display:flex;
+	justify-content: space-between;
+	background-color: #A5A4FF;
+	font-family: Cascadia Mono, sans-serif, monospace;
+	text-shadow: 0.1em 0.1em 0.25em rgba(68, 0, 229, 0.8);
+	color: white;
+
+
+}
+
+#header
+{
+	display:inline-block;
+	font-size:1.5em;
+	line-height:0.1em;
+	margin-left:1em;
+
+}
+#navbar ul
+{
+	text-align: right;
+	margin-right: 1.5em;
+	
+}
+#navbar li
+{
+	display: inline;
+	font-size:1em;
+	color: #FFF4F0;
+	
+}
+#navbar a
+{
+	display:inline-block;
+	line-height: 2em;
+	color: white;
+	text-decoration: none;
+	margin-left:1.5em;
+	margin-right:1.5em;
+	
+}
+
+
+#maincontainer
+{
+		display: flex;
+
+}
+
+#photo
+{
+	margin-top:2em;
+	margin-left:2em;
+}
+
+.photo
+{
+	width:30em;
+	height:auto;
+	
+}
+
+#main
+{
+	text-align: left;
+	opacity: 1;
+	color: #FFF4F0;
+	margin-left:4em;
+	
+}
+
+
+#welcome
+{
+	font-family: Bahnschrift Light, sans-serif;
+	font-size:4em;
+
+}
+
+h2
+{
+	font-family: Courier New, monospace, sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size:2em;
+
+
+}
+
+p
+{
+	font-family: Courier New, monospace, sans-serif;
+	font-size:1em;
+	
+}
+
+button
+{
+		background-color: rgba(68, 0, 229, 0.92);
+		color: rgba(255, 255, 255, 0.95);
+		text-decoration: underline;
+		font-family: Gill sans, sans-serif;
+		font-size:0.8em;
+		border-radius: 1em;
+		border: none;
+		width: 10em;
+		height: 2em;
+		box-shadow: 0.1em 0.2em rgba(255, 255, 255, 0.8);
+	
+}
+
+button:active
+{
+	background-color: #A5A4FF;
+	box-shadow: 0.1em 0.2em white;
+	transform: translateY(0.1em);
+
+}
