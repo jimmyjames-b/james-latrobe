@@ -7,7 +7,7 @@ body
 
 }
 
-#navbarcontainer
+#headnav
 {
 	display:flex;
 	justify-content: space-between;
@@ -54,7 +54,7 @@ body
 
 #maincontainer
 {
-		display: flex;
+	display: flex;
 
 }
 
@@ -107,16 +107,16 @@ p
 
 button
 {
-		background-color: rgba(68, 0, 229, 0.92);
-		color: rgba(255, 255, 255, 0.95);
-		text-decoration: underline;
-		font-family: Gill sans, sans-serif;
-		font-size:0.8em;
-		border-radius: 1em;
-		border: none;
-		width: 10em;
-		height: 2em;
-		box-shadow: 0.1em 0.2em rgba(255, 255, 255, 0.8);
+	background-color: rgba(68, 0, 229, 0.92);
+	color: rgba(255, 255, 255, 0.95);
+	text-decoration: underline;
+	font-family: Gill sans, sans-serif;
+	font-size:0.8em;
+	border-radius: 1em;
+	border: none;
+	width: 10em;
+	height: 2em;
+	box-shadow: 0.1em 0.2em rgba(255, 255, 255, 0.8);
 	
 }
 
@@ -126,4 +126,88 @@ button:active
 	box-shadow: 0.1em 0.2em white;
 	transform: translateY(0.1em);
 
+}
+
+
+.socialicons
+{
+	color: inherit;
+	font-size: 2em;
+	margin-right:1em;
+}
+
+.email
+{
+	color: inherit;
+	font-size: 1.1em;
+	font-family: Bookman Old Style, serif;
+	
+}
+
+form
+{
+	background-color: rgba(40, 40, 80, 0.90);
+	border: 0.5em solid rgba(68, 0, 229, 0.92);
+	border-radius:1em;
+	color:white;
+	max-width: 50em;
+	margin: auto;
+	margin-top: 5em;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom: 1em;
+
+	
+}
+
+textarea
+{
+	height: 4em;
+	min-height:4em;
+	max-height: 20em;
+	width: 100%;
+	resize:vertical;
+
+}
+
+#starRating
+{
+	display:flex;
+	flex-direction:row-reverse;
+	justify-content: left;
+}
+#starRating input
+{
+	display:none;
+	
+}
+#starRating label
+{
+	color:grey;
+	font-size:2em;
+	cursor: pointer;
+	
+}
+#starRating input:checked ~ label, #starRating label:hover, #starRating label:hover ~ label
+{
+	color: white;
+	text-shadow: 0.1em 0.1em 0.25em rgba(68, 0, 229, 0.8);
+
+}
+
+#submitButton
+{
+	text-decoration: none;
+	font-size: 1em;
+	
+}
+
+
+footer
+{
+	background-color: #8F8AE0;
+	color:white;
+	text-shadow: 0.1em 0.1em 0.25em rgba(68, 0, 229, 0.8);
+	margin-top: 3em;
+	
 }
