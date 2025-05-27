@@ -4,6 +4,8 @@
 body
 {
 	background-color:rgba(8, 8, 16, 0.94);
+	background-image: url('images/lines.png');
+
 
 }
 
@@ -65,12 +67,14 @@ body
 	margin-top:2em;
 	margin-left:2em;
 	width:30em;
+	
 }
 
 .photo
 {
 	width:25em;
 	height:auto;
+	border: 0.1em solid #303745;
 	
 }
 
@@ -80,8 +84,9 @@ body
 	text-align: left;
 	opacity: 1;
 	color: #FFF4F0;
-	margin-top:3em;
-	margin-left:4em;
+	margin-top:4em;
+	margin-left:3em;
+	text-shadow: 0.2em 0.2em 0.5em black;
 	
 }
 
@@ -99,7 +104,6 @@ h2
 	font-weight: bold;
 	font-style: italic;
 	font-size:2em;
-
 
 }
 
@@ -157,7 +161,7 @@ form
 {
 	background-color: rgba(40, 40, 80, 0.90);
 	border: 0.4em solid rgba(68, 0, 229, 0.92);
-	border-radius:1em;
+	border-radius:0.4em;
 	color:white;
 	max-width: 50em;
 	margin: auto;
@@ -220,4 +224,16 @@ footer
 	text-shadow: 0.1em 0.1em 0.25em rgba(68, 0, 229, 0.8);
 	margin-top: 3em;
 	
+}
+
+#about
+{
+	color: white;
+	font-family: Courier New, monospace, sans-serif;
+	text-shadow: 0.2em 0.2em 0.5em black;
+	margin-left:5em;
+	margin-right:5em;
+	margin-top:3em;
+	background-color: rgba(22, 27, 36, 0.6);
+
 }
