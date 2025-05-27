@@ -30,6 +30,7 @@ body
 #navbar ul
 {
 	text-align: right;
+	margin-left: 1.5em;
 	margin-right: 1.5em;
 	
 }
@@ -60,22 +61,26 @@ body
 
 #photo
 {
+	flex:2;
 	margin-top:2em;
 	margin-left:2em;
+	width:30em;
 }
 
 .photo
 {
-	width:30em;
+	width:25em;
 	height:auto;
 	
 }
 
 #main
 {
+	flex:3;
 	text-align: left;
 	opacity: 1;
 	color: #FFF4F0;
+	margin-top:3em;
 	margin-left:4em;
 	
 }
@@ -119,7 +124,11 @@ button
 	box-shadow: 0.1em 0.2em rgba(255, 255, 255, 0.8);
 	
 }
+button:hover
+{
+	background-color: #A5A4FF;
 
+}
 button:active
 {
 	background-color: #A5A4FF;
@@ -147,7 +156,7 @@ button:active
 form
 {
 	background-color: rgba(40, 40, 80, 0.90);
-	border: 0.5em solid rgba(68, 0, 229, 0.92);
+	border: 0.4em solid rgba(68, 0, 229, 0.92);
 	border-radius:1em;
 	color:white;
 	max-width: 50em;
@@ -156,6 +165,7 @@ form
 	padding-left: 1em;
 	padding-right: 1em;
 	padding-bottom: 1em;
+	font-family: arial, sans serif;
 
 	
 }

@@ -13,7 +13,7 @@
 		
 		<nav id = "navbar">
 			<ul>
-				<li><a href = "index.html">Home</a>|</li>
+				<li><a href = "index.php">Home</a>|</li>
 				<li><a href = "about.html">About Me</a>|</li>
 				<li><a href = "experience.html">Experience</a>|</li>
 				<li><a href = "contact.html">Contact</a></li>
@@ -51,7 +51,7 @@
 	
 	</div>
 	
-	<form action = "feedback.php" method = "GET">
+	<form action = "thankyou.php" method = "GET">
 				<h1>Feedback</h1>
 				
 				
