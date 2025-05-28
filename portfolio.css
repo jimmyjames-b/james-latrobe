@@ -90,7 +90,7 @@ body
 {
 	width:25em;
 	height:auto;
-	border: 0.1em solid #303745;
+	border: 0.1em solid #353D4B;
 	
 }
 
@@ -243,23 +243,43 @@ footer
 	
 }
 
-#about_header
+#gallery_header
 {
+	margin-left:1em;
 	color: #FFF4F0;
 	font-family: Bahnschrift Light, sans serif;
-	font-size:7;
-
+	font-size:4em;
+	text-shadow: 0.2em 0.2em 0.5em black;
 	
 }
 
+#aboutcontainer
+{
+	display:flex;
+	margin-top:3em;
+	
+}
+
+#portrait
+{
+	flex:1;
+	
+}
+.portrait
+{
+	max-width:20em;
+	margin-left: 2em;
+	border: 0.1em solid #353D4B;
+
+	
+}
 #about
 {
+	flex:2;
 	color: white;
 	font-family: Courier New, monospace, sans-serif;
 	text-shadow: 0.2em 0.2em 0.5em black;
-	margin-left:5em;
 	margin-right:5em;
-	margin-top:3em;
 	background-color: rgba(22, 27, 36, 0.6);
 
 }
