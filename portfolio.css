@@ -334,3 +334,187 @@ img
 	color:white;
 	
 }
+
+#feedback
+{
+	padding-top:10em;
+	margin-left:1em;
+	color: #FFF4F0;
+	font-family: Bahnschrift Light, sans serif;
+
+}
+#feedbackHeader
+{
+	font-size:4em;
+	text-shadow: 0.2em 0.2em 0.5em black;	
+	display: inline-block;
+	
+}
+#formConsistency
+{
+	font-family: arial, sans serif;
+	background-color: rgba(40, 40, 80, 0.90);
+	border: 0.4em solid rgba(68, 0, 229, 0.92);
+	border-radius:0.4em;
+	padding: 1em 2em;
+	min-width:30em;
+	max-width: 50em;
+	margin:auto;
+	width: fit-content;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	box-sizing: border-box;
+	
+}
+#feedbackCategory
+{
+	display: inline-block;
+	
+}
+#feedbackGiven
+{
+	margin-left:1em;
+	font-size:1em;
+	display: inline-block;
+	
+}
+#backToHome
+{
+	color: rgba(255, 255, 255, 0.95);
+	font-family: Gill sans, sans-serif;
+	font-size:0.9em;
+	width:12em;
+	
+}
+.backToHome
+{
+	color: rgba(255, 255, 255, 0.95);
+	
+}
+
+#future
+{
+	padding-top:11em;
+	
+}
+
+#futureContainer
+{
+	display:flex;
+	padding-top:12em;
+	margin-left: 2em;
+	margin-right:1em;
+
+	
+}
+#gridContainer
+{
+	position:relative;
+
+}
+#futureGrid
+{
+	flex:2;
+	
+}
+.teamMeetingPic
+{
+	width:20em;
+	height:auto;
+	position:relative;
+	
+}
+.codePic
+{
+	width:23em;
+	height:auto;
+	position:absolute;
+	top:10em;
+	left:6em;
+	z-index:-1;
+	
+}
+.langPic
+{
+	width:15em;
+	position:absolute;
+	height:auto;
+	top:18.5em;
+	left:3em;
+	z-index:-2;
+	
+}
+.deskPic
+{
+	width:20em;
+	height:auto;
+	position:absolute;
+	top:27em;
+	left:6em;
+	z-index:-1;
+	
+}
+.teamMeetingPic, .codePic, .langPic, .deskPic
+{		
+	border: 0.1em solid #353D4B;
+
+}
+#futurePlans
+{
+	margin-left:2em;
+	flex:3;
+	color:white;
+	background-color: rgba(22, 27, 36, 0.6);
+	
+}
+#futureHeader
+{
+	color: #FFF4F0;
+	font-family: Bahnschrift Light, sans serif;
+	font-size:3em;
+	text-shadow: 0.2em 0.2em 0.5em black;
+	
+}
+#futureTopics
+{
+	font-size:1.8em;
+	
+}
+
+#languageRows
+{
+	display:flex;
+	
+}
+.languagePic
+{
+	max-width:8em;
+	flex:33.33%;
+	margin:0.1em;
+	border: 0.1em solid #353D4B;
+
+	
+}
+.languagePicSingle
+{
+	max-width:8em;
+	flex:33.33%;
+	margin:0.1em;
+	border: 0.1em solid #353D4B;
+
+	
+}
+#photosFlex
+{
+	flex:2;
+	display: flex;
+    flex-direction: column; /* Ensures vertical stacking */
+}
+#languages
+{
+	margin-top:-2em;
+	margin-left:3em;
+	
+}
+
+	
