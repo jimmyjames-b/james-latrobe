@@ -508,12 +508,18 @@ img
 {
 	flex:2;
 	display: flex;
-    flex-direction: column; /* Ensures vertical stacking */
+    flex-direction: column;
 }
 #languages
 {
 	margin-top:-2em;
 	margin-left:3em;
+	
+}
+.goalsList
+{
+	font-family: Courier New, monospace, sans-serif;
+	font-size:1em;
 	
 }
 
